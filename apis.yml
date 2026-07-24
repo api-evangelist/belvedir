@@ -1,7 +1,30 @@
 aid: belvedir
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/belvedir.png
 name: Belvedir
-description: Belvedir is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Belvedir is an autonomous private AI platform built by Fractal Machine
+  Research, Inc. (a Y Combinator Summer 2026 company). It lets individuals and
+  teams train custom AI models and memory systems, host them privately on
+  single-tenant infrastructure, and continually improve them through use: it
+  collects agent calls and production traces, converts those traces into
+  training data, and fine-tunes models with reinforcement learning in a
+  continuous loop before redeploying on private infrastructure. The stated aim
+  is to let everyday individuals own their own artificial intelligence rather
+  than rent it from a shared provider. The product is in closed alpha and access
+  is currently granted by request; there is no public API or developer
+  documentation yet, so this profile captures the company's public identity and
+  will be enriched as a developer surface appears.
 url: https://raw.githubusercontent.com/api-evangelist/belvedir/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,49 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: Fractal Machine Research, Inc.
+x-yc-batch: Summer 2026
+x-headquarters: San Francisco, CA
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Reinforcement Learning
+- Private AI
+- Fine-Tuning
+- LLM
+- Agents
+- Model Hosting
 apis: []
+common:
+- url: https://belvedir.ai/
+  type: Website
+- url: https://belvedir.ai/blog
+  type: Blog
+- url: https://belvedir.ai/releases
+  type: ChangeLog
+- url: changelog/belvedir-changelog.yml
+  type: ChangeLog
+- url: https://belvedir.ai/terms
+  type: TermsOfService
+- url: https://belvedir.ai/privacy
+  type: PrivacyPolicy
+- url: https://www.linkedin.com/company/fractal-machine-research/
+  type: LinkedIn
+- url: https://x.com/fractalml
+  type: Twitter
+- url: security/belvedir-domain-security.yml
+  type: DomainSecurity
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

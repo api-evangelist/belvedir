@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: searched
+source: https://belvedir.ai/releases
+scheme: semver
+current_version: 0.1.0
+notes: >-
+  Belvedir publishes a dated "Releases" page. As of capture it lists a single
+  named release. The product is in closed alpha; entries are sparse and carry no
+  detailed highlights on the public page.
+entries:
+- version: 0.1.0
+  name: Loop
+  date: '2026-05-08'
+  breaking: false
+  highlights: []
