@@ -37,6 +37,9 @@ description: >-
   documentation yet, so this profile captures the company's public identity and
   will be enriched as a developer surface appears.
 url: https://raw.githubusercontent.com/api-evangelist/belvedir/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The product is in closed alpha and access is currently granted by request; there is no public API or developer documentation yet, so this profile captures the company's public identity and will be enr"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
