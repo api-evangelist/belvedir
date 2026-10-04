@@ -55,7 +55,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Reinforcement Learning
 - Private AI
 - Fine-Tuning
@@ -72,6 +72,7 @@ tags_raw:
 - LLM
 - Agents
 - Model Hosting
+- Machine-Learning
 apis: []
 common:
 - url: https://belvedir.ai/
