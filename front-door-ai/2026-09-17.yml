@@ -1,0 +1,32 @@
+# Front Door AI Index — belvedir — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: belvedir
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: belvedir.ai
+  final_host: belvedir.ai
+  ownership: own
+  owner: belvedir
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 9
+  band: 4
+  band_label: moderate
+  host_score: 9
+  density: 11.81
+  words: 762
+  tiers:
+    agentic: 4
+    core: 4
+    model: 1
+  ambiguous: 3
+  top_terms:
+    AI: 4
+    agent: 3
+    fine-tune: 2
+    inference: 2
+    OpenAI: 1
